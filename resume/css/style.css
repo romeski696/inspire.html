@@ -1,0 +1,47 @@
+:root
+{
+  --Green: #5cb359;
+  --Light Blue: #59b3b3;
+  --Purple: #b159b3;
+}
+body
+{
+    background-color: var(--Green);
+}
+*
+{
+    color: var(--Light_Blue);
+    text-align: center;
+}
+h1
+{
+    font-size: calc(16pt + 4vw);
+}
+nav
+{
+    border: 7px var(--Green) solid;
+    margin: 8vw;
+    margin-top: 5px;
+}
+section
+{
+    border: 5px var(--Purple) solid;
+    margin: 18vw;
+    margin-top: 30px;
+}
+.date
+{
+    color: var(--Purple);
+    white-space: nowrap;
+}
+
+.date strong
+{
+    color: var(--Light_Blue);
+    white-space: nowrap;
+}
+ul
+{
+    list-style: none;
+    padding-left: 0px;
+}
